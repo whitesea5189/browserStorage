@@ -1,0 +1,198 @@
+/* Reset */
+
+* {
+	/*vertical-align: baseline;*/
+	font-weight: inherit;
+	font-family: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	border: 0 none;
+	outline: 0;
+	padding: 0;
+	margin: 0;
+}
+
+/* HTML */
+
+html {
+  font-size: 100.01%;
+}
+body {
+  font-size: 80%;
+  line-height: 1.5;
+  font-family: sans-serif;
+  margin-top: 3em;
+}
+#page-wrapper {
+	margin: 0 auto;
+	max-width: 960px;
+	width: 100%;
+}
+#page {
+  margin: 0 25px;
+}
+#header {
+  margin-bottom: 2.5em;
+}
+
+/* Typography */
+
+h1, h2, h3, h4, h5, h6, legend {
+  line-height: 1.1em;
+  text-decoration: none;
+}
+#site-name {
+  font-size: 2.8em;
+  margin-bottom: 0.1em;
+}
+h1 {
+  font-size: 2.2em;
+  margin-bottom: 0.5em;
+}
+h2 {
+  font-size: 2em;
+  margin-bottom: 0.5em;
+}
+h3 {
+  font-size: 1.5em;
+  margin-bottom: 0.5em;
+}
+h4 {
+  font-size: 1.2em;
+  margin-bottom: 1.25em;
+}
+h5 {
+  font-size: 1em;
+  margin-bottom: 1.5em;
+}
+h6 {
+  font-size: 1em;
+}
+a, a:link, a:active {
+  text-decoration: none;
+  color: #09c;
+}
+a:hover {
+  color: #0086b3;
+}
+a:active {
+  color: #007399
+}
+p {
+  margin: 0 0 1.5em 0;
+}
+pre, code {
+  font: 1em 'lucida console', monospace;
+  line-height: 1.5;
+}
+code {
+  background: #eee;
+}
+pre {
+  background: #eee;
+  padding: 1.5em;
+  margin-bottom: 1.5em;
+  overflow: auto;
+}
+table {
+  width: 100%;
+}
+tr.even, tr.odd {
+  background: none;
+}
+td {
+  padding: 0.75em;
+  vertical-align: top;
+}
+
+/* Forms */
+
+.form-submit, .action-links a {
+  font-family: sans-serif;
+  padding: 0.5em 1em;
+  margin-right: 0.5em;
+  background: #09c;
+  color: #fff;
+  border-radius: 4px;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+}
+.form-submit:hover, .action-links a:hover {
+  background: #0086b3;
+}
+.form-submit:active, .action-links a:active {
+  color: #007399;
+}
+.form-textarea, .form-text {
+  border-top: 1px solid #888;
+  border-right: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  border-left: 1px solid #888;
+  padding: 4px;
+}
+.form-select {
+  border: 1px solid #aaa;
+}
+
+/* Nodes and comments */
+
+.node {
+  margin-bottom: 1.5em;
+}
+.comment .links.inline {
+  margin-bottom: 1.5em;
+  display: block;
+}
+.comment a.permalink {
+  display: none;
+}
+.comment h3 a.permalink {
+  display: inline;
+}
+.submitted, .footer, .description {
+  color: #888;
+}
+
+/* Misc components */
+
+div.admin .left, div.admin .right {
+  float: none;
+  width: 100%;
+  margin: 0;
+} 
+div.messages {
+  background-image: none;
+  padding: 1em;
+  border: none;
+  margin-bottom: 1.5em;
+}
+ul.primary.tabs li a {
+  padding: 0.5em 1em;
+}
+ul.primary {
+  line-height: 2em;
+  margin-bottom: 1.5em;
+}
+.item-list ul li {
+  margin: 0 5px 0 0;
+}
+ul.inline li {
+  padding: 0 0.5em 0 0;
+}
+.action-links {
+  margin-bottom: 1.5em;
+  list-style-type: none;
+}
+.action-links li {
+  display: inline;
+}
+.tabledrag-toggle-weight-wrapper {
+  display: none;
+}
+.vertical-tabs .summary {
+  font-size: 0.9em;
+}
+.vertical-tabs a .summary {
+  color: #888;
+  font-weight: normal;
+}
